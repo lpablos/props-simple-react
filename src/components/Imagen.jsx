@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Imagen = (props) => {
-    console.log("Nieto props", props);
+const Imagen = ({srcImagen}) => {
+    
     return (
-        <img src={props.srcImagen} alt=""/>
+        <img src={srcImagen} alt=""/>
     )
 }
 
